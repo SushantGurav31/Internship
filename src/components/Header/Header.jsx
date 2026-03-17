@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { FaUserCircle, FaLock } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -20,7 +21,7 @@ const Header = () => {
             </nav>
             <div className="login-section">
                 <FaUserCircle className="user-icon"/>
-                <span> Log In </span>
+                <span> Log In </span> 
                 <FaLock className="lock-icon"/>
             </div>
 
